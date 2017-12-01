@@ -17,7 +17,6 @@ spec:
         component: "{{ .Values.client.name }}"
         release: {{ .Release.Name }}
     spec:
-      serviceAccountName: {{ template "elasticsearch.fullname" . }}
       securityContext:
         fsGroup: 1000
       {{- if eq .Values.client.antiAffinity "hard" }}
