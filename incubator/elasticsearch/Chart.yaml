@@ -11,7 +11,6 @@ sources:
 - https://github.com/GoogleCloudPlatform/elasticsearch-docker
 - https://github.com/clockworksoul/helm-elasticsearch
 - https://github.com/pires/kubernetes-elasticsearch-cluster
-- https://github.com/blacktop/docker-elasticsearch-alpine
 maintainers:
 - name: Christian Simon
   email: christian@jetstack.io
